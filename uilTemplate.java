@@ -7,6 +7,6 @@ public class uilTemplate {
         Scanner test = new Scanner(new File(""));
         int n = test.nextInt();
 
-        //test
+        
     }  
 }
