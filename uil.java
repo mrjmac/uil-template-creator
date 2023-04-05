@@ -25,7 +25,7 @@ public class uil {
             }
             System.out.println(files[i].getName());
             FileWriter FileWriter = new FileWriter(files[i].getName().substring(0, 1).toUpperCase() + files[i].getName().substring(1, files[i].getName().length() - 4) + ".java", false);
-            FileWriter.write(code.substring(0, code.indexOf("uil")) + files[i].getName().substring(0, files[i].getName().length() - 4) + code.substring(code.indexOf("uil") + 11, code.indexOf("File(") + 6) + files[i].getName() + "\"" + code.substring(code.indexOf("File(") + 7));
+            FileWriter.write(code.substring(0, code.indexOf("uil")) + files[i].getName().substring(0, 1).toUpperCase() + files[i].getName().substring(1, files[i].getName().length() - 4) + code.substring(code.indexOf("uil") + 11, code.indexOf("File(") + 6) + files[i].getName() + "\"" + code.substring(code.indexOf("File(") + 7));
             FileWriter.close();
         }
 
