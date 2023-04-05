@@ -19,7 +19,7 @@ public class uil {
         //create starter files
         for (int i = 0; i < files.length; i++)
         {
-            if (files[i].getName().indexOf("uil") != -1 || files[i].getName().startsWith(".") == true)
+            if (files[i].getName().indexOf("uil") != -1 || files[i].getName().startsWith(".") == true || files[i].getName().indexOf("README.md") != -1 )
             {
                 continue;
             }
