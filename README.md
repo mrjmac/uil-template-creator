@@ -3,7 +3,7 @@
 This tool will automatically generate all the starter files you need for a UIL competition
 
 To use this tool:
- * Clone the repo
+ * Clone the repo or copy both files
  * Drag all the dat files into the same folder as the repo
  * Run the program
 
